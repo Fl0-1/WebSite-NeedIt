@@ -48,7 +48,7 @@ function TeamHomeOne({ className }) {
                                     />
                                 </div>
                                 <div className="team-info">
-                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Florent Leclercq</h4>
+                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Florent</h4>
                                     <p style={{ color: '#007bff', fontWeight: '500', marginBottom: '15px' }}>CEO & Lead Developer</p>
                                     <p style={{ color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
                                         Visionary leader with expertise in full-stack development and product strategy. Passionate about creating technology that brings communities together.
@@ -93,7 +93,7 @@ function TeamHomeOne({ className }) {
                                     />
                                 </div>
                                 <div className="team-info">
-                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Jean-Juste Mukendi</h4>
+                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Jean-Juste</h4>
                                     <p style={{ color: '#28a745', fontWeight: '500', marginBottom: '15px' }}>CTO & Backend Architect</p>
                                     <p style={{ color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
                                         Technical expert specializing in scalable backend systems and cloud infrastructure. Ensures robust and secure platform architecture.
@@ -138,7 +138,7 @@ function TeamHomeOne({ className }) {
                                     />
                                 </div>
                                 <div className="team-info">
-                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Dounya Benali</h4>
+                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Dounya</h4>
                                     <p style={{ color: '#dc3545', fontWeight: '500', marginBottom: '15px' }}>Head of Design & UX</p>
                                     <p style={{ color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
                                         Creative designer focused on user experience and interface design. Creates intuitive and beautiful digital experiences that users love.
@@ -185,7 +185,7 @@ function TeamHomeOne({ className }) {
                                     />
                                 </div>
                                 <div className="team-info">
-                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Léo Martinez</h4>
+                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Léo</h4>
                                     <p style={{ color: '#ffc107', fontWeight: '500', marginBottom: '15px' }}>Mobile Developer</p>
                                     <p style={{ color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
                                         Mobile development specialist creating seamless iOS and Android experiences. Expert in React Native and native mobile technologies.
@@ -230,7 +230,7 @@ function TeamHomeOne({ className }) {
                                     />
                                 </div>
                                 <div className="team-info">
-                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Lina Chen</h4>
+                                    <h4 style={{ color: '#333', marginBottom: '5px', fontWeight: '600' }}>Lina</h4>
                                     <p style={{ color: '#6f42c1', fontWeight: '500', marginBottom: '15px' }}>Product Manager</p>
                                     <p style={{ color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
                                         Strategic product leader driving user-centered innovation. Bridges business objectives with technical execution to deliver exceptional user value.
