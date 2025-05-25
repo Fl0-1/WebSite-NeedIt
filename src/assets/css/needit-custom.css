@@ -1,0 +1,339 @@
+/* Custom styles for NeedIt sections */
+
+/* Pricing Section */
+.needit-pricing-area {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+/* Pricing Toggle Styles - Redesign complet */
+.pricing-toggle {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.toggle-wrapper {
+    display: inline-flex !important;
+    align-items: center !important;
+    background: linear-gradient(145deg, #ffffff, #f0f2f5) !important;
+    border-radius: 60px !important;
+    padding: 6px !important;
+    position: relative !important;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.12),
+        inset 0 2px 4px rgba(255, 255, 255, 0.9),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    min-width: 280px;
+}
+
+.toggle-btn {
+    padding: 14px 28px !important;
+    border: none !important;
+    border-radius: 50px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 2 !important;
+    outline: none !important;
+    position: relative !important;
+    overflow: hidden !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    min-width: 120px !important;
+}
+
+.toggle-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s;
+}
+
+.toggle-btn:hover::before {
+    left: 100%;
+}
+
+.toggle-btn:not(.active) {
+    background: transparent !important;
+    color: #6c757d !important;
+    transform: scale(0.95);
+}
+
+.toggle-btn.active {
+    background: linear-gradient(135deg, #007bff, #0056b3) !important;
+    color: white !important;
+    box-shadow:
+        0 4px 20px rgba(0, 123, 255, 0.4),
+        0 2px 8px rgba(0, 123, 255, 0.3),
+        inset 0 1px 2px rgba(255, 255, 255, 0.3) !important;
+    transform: scale(1) translateY(-1px);
+}
+
+.toggle-btn:hover {
+    transform: scale(1.02) translateY(-2px) !important;
+}
+
+.toggle-btn.active:hover {
+    transform: scale(1.05) translateY(-2px) !important;
+    box-shadow:
+        0 6px 25px rgba(0, 123, 255, 0.5),
+        0 4px 12px rgba(0, 123, 255, 0.4) !important;
+}
+
+/* Badge -17% - Redesign moderne */
+.toggle-wrapper span {
+    position: absolute !important;
+    top: -12px !important;
+    right: -8px !important;
+    background: linear-gradient(135deg, #28a745, #20c997) !important;
+    color: white !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    padding: 4px 8px !important;
+    border-radius: 12px !important;
+    z-index: 4 !important;
+    box-shadow:
+        0 4px 12px rgba(40, 167, 69, 0.4),
+        0 2px 6px rgba(40, 167, 69, 0.3) !important;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    animation: bounce 2s infinite;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    40% {
+        transform: translateY(-4px) scale(1.05);
+    }
+
+    60% {
+        transform: translateY(-2px) scale(1.02);
+    }
+}
+
+/* Effet de brillance sur le toggle */
+.toggle-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3), transparent);
+    border-radius: 50px 50px 0 0;
+    pointer-events: none;
+}
+
+/* Responsive pour le toggle */
+@media (max-width: 768px) {
+    .toggle-wrapper {
+        min-width: 240px;
+    }
+
+    .toggle-btn {
+        padding: 12px 20px !important;
+        font-size: 13px !important;
+        min-width: 100px !important;
+    }
+
+    .toggle-wrapper span {
+        font-size: 10px !important;
+        padding: 3px 6px !important;
+    }
+}
+
+/* Pricing Cards */
+.needit-pricing-card {
+    background-color: white !important;
+    border-radius: 20px !important;
+    padding: 40px 30px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+    border: 2px solid transparent !important;
+    position: relative !important;
+}
+
+.needit-pricing-card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15) !important;
+}
+
+.needit-pricing-card.premium {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%) !important;
+    border: 2px solid #007bff !important;
+    transform: scale(1.05) !important;
+}
+
+.needit-pricing-card.premium:hover {
+    transform: translateY(-15px) scale(1.07) !important;
+    box-shadow: 0 30px 60px rgba(0, 123, 255, 0.25) !important;
+}
+
+.plan-features li {
+    transition: all 0.2s ease;
+}
+
+.plan-features li:hover {
+    transform: translateX(5px);
+    color: #333 !important;
+}
+
+/* Plan buttons */
+.needit-pricing-card button {
+    width: 100% !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+.needit-pricing-card button:hover {
+    transform: translateY(-2px) !important;
+}
+
+/* Professional Team Section */
+.needit-team-item-pro:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.needit-team-item-pro .team-photo img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.needit-team-item-pro .social-links a:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.needit-team-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.needit-team-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    z-index: -1;
+}
+
+/* Values Section */
+.needit-values-area .needit-single-value {
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.needit-values-area .needit-single-value:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.needit-values-area .value-emoji {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Stats Section */
+.needit-stats-area .needit-single-stat {
+    padding: 20px;
+}
+
+.needit-stats-area .stat-number {
+    background: linear-gradient(45deg, #ffffff, #f8f9fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Testimonials Section */
+.needit-testimonials-area .needit-testimonial-item {
+    transition: all 0.3s ease;
+}
+
+.needit-testimonials-area .needit-testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* FAQ Section */
+.needit-faq-area .needit-faq-item {
+    transition: all 0.3s ease;
+}
+
+.needit-faq-area .faq-question:hover {
+    background-color: #f8f9fa !important;
+}
+
+/* CTA Section */
+.needit-cta-area .btn-download:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .needit-values-area .value-emoji {
+        font-size: 36px;
+    }
+
+    .needit-stats-area .stat-number {
+        font-size: 36px !important;
+    }
+
+    .needit-cta-area .btn-download {
+        display: block !important;
+        margin: 10px 0 !important;
+        text-align: center;
+    }
+}
+
+/* Animation improvements */
+.wow.fadeInUp {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}

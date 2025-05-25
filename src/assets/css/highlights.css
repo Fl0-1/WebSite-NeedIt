@@ -1,0 +1,110 @@
+/* Highlights Area Styling */
+
+.needit-highlights-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.needit-single-highlight {
+    position: relative;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 0.3s ease-out;
+    height: 100%;
+    min-height: 280px;
+}
+
+.needit-single-highlight:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.needit-single-highlight .icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #0067f4, #2bdbdc);
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.needit-single-highlight .icon span {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #0067f4;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.needit-single-highlight.item-2 .icon {
+    background: linear-gradient(45deg, #f23c49, #ff7e84);
+}
+
+.needit-single-highlight.item-2 .icon span {
+    color: #f23c49;
+}
+
+.needit-single-highlight.item-3 .icon {
+    background: linear-gradient(45deg, #4caf50, #8bc34a);
+}
+
+.needit-single-highlight.item-3 .icon span {
+    color: #4caf50;
+}
+
+.needit-single-highlight.item-4 .icon {
+    background: linear-gradient(45deg, #ff9800, #ffeb3b);
+}
+
+.needit-single-highlight.item-4 .icon span {
+    color: #ff9800;
+}
+
+.needit-single-highlight h4.needit-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.needit-single-highlight:hover h4.needit-title {
+    color: #0067f4;
+}
+
+.needit-single-highlight.item-2:hover h4.needit-title {
+    color: #f23c49;
+}
+
+.needit-single-highlight.item-3:hover h4.needit-title {
+    color: #4caf50;
+}
+
+.needit-single-highlight.item-4:hover h4.needit-title {
+    color: #ff9800;
+}
+
+.needit-single-highlight p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #6c6c6c;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .needit-single-highlight {
+        margin-bottom: 30px;
+    }
+}

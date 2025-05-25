@@ -1,0 +1,230 @@
+/*dark css*/
+
+
+.needit-dark{
+	background: #292E3C;
+}
+
+.needit-header-area-dark .needit-header-main-menu ul > li > a{
+	color: #fff;
+}
+.needit-header-area-dark .header-nav-box .needit-btn-box .login-btn{
+	color: #fff;
+}
+
+
+
+.needit-hero-area-dark .needit-hero-content .needit-title{
+	color: #fff;
+}
+
+.needit-hero-area-dark .needit-hero-content p{
+	color: #fff;
+}
+
+.needit-hero-area-dark .needit-hero-content ul li a{
+	background: #fff;
+	border-color: #fff;
+	color: #0e1133;
+}
+
+.needit-hero-area-dark .needit-hero-content ul li a:hover{
+	background: transparent;
+	color: #fff;
+}
+
+.needit-hero-area-dark .needit-hero-content ul li a.item-2{
+	color: #fff;
+}
+.needit-hero-area-dark .needit-hero-content ul li a.item-2:hover{
+	background: #fff;
+	color: #0e1133;
+}
+
+.needit-service-area.needit-service-area-dark{
+	background: #1f2128;
+}
+
+.needit-service-area-dark .needit-section-title .needit-title{
+	color: #fff;
+}
+.needit-service-area-dark .needit-section-title p{
+	color: #fff;
+}
+
+.needit-service-area-dark  .needit-single-service{
+	background: #292E3C;
+}
+
+.needit-service-area-dark .needit-single-service p,
+.needit-service-area-dark .needit-single-service .needit-title{
+	color: #fff;
+}
+
+.needit-features-area-dark  .needit-features-tabs-btn .nav a{
+	color: #fff;
+}
+
+.needit-features-area-dark .needit-features-content p,
+.needit-features-area-dark .needit-features-content .title{
+	color: #fff;
+}
+
+.needit-traffic-area-dark .needit-traffic-title p,
+.needit-traffic-area-dark .needit-traffic-title .title{
+	color: #fff;
+}
+
+.needit-traffic-area-dark .needit-traffic-service p,
+.needit-traffic-area-dark .needit-traffic-service .title{
+	color: #fff;
+}
+
+.needit-traffic-area-dark .traffic-btn a.main-btn{
+	color: #fff;
+}
+.needit-traffic-area-dark .traffic-btn a.main-btn:hover{
+	background: #fff;
+	color: #2b70fa;
+}
+
+.needit-team-area-dark .needit-section-title p,
+.needit-team-area-dark .needit-section-title .needit-title{
+	color: #fff;
+}
+
+.needit-team-area-dark .needit-team-item .content span,
+.needit-team-area-dark .needit-team-item .content .title{
+	color: #fff;
+}
+
+.needit-team-area-dark .team-btn a{
+	color: #fff;
+}
+
+
+
+.needit-faq-area-dark.needit-faq-area,
+.needit-pricing-area-dark.needit-pricing-area{
+	background: #1f2128;
+}
+
+.needit-pricing-area-dark .needit-section-title p,
+.needit-pricing-area-dark .needit-section-title .needit-title{
+	color: #fff;
+}
+
+
+
+.needit-pricing-area-dark.needit-pricing-area ul.switch-toggler-list li a{
+	color: #fff;
+	opacity: 0.1;
+}
+.needit-pricing-area-dark.needit-pricing-area ul.switch-toggler-list li.active a{
+	color: #fff;
+	opacity: 1;
+}
+
+
+.needit-pricing-area-dark.needit-pricing-area .pricing-one__single{
+	background: #292E3C;
+	color: #fff;
+}
+
+.needit-pricing-area-dark .pricing-one__single .pricig-heading h6{
+	color: #fff;
+}
+
+.needit-pricing-area-dark .pricing-one__single .pricig-heading .price-range{
+	color: #fff;
+}
+
+.needit-pricing-area-dark .pricing-one__single .pricig-heading .price-range p{
+	color: #fff;
+}
+
+.needit-pricing-area-dark .pricing-one__single .pricig-heading > p{
+	color: #fff;
+}
+
+.needit-pricing-area-dark .pricing-one__single .pricig-body ul li{
+	color: #fff;
+}
+
+.needit-pricing-area-dark  .pricing-one__single .pricig-body .pricing-btn a{
+	color: #fff;
+}
+
+
+
+
+.needit-faq-area.needit-faq-area-dark .needit-section-title p,
+.needit-faq-area.needit-faq-area-dark .needit-section-title .needit-title{
+	color: #fff;
+}
+
+
+.needit-faq-area.needit-faq-area-dark .faq-accrodion .accrodion{
+	background: #292E3C;
+	
+}
+.needit-faq-area.needit-faq-area-dark .faq-accrodion .accrodion .accrodion-inner,
+.needit-faq-area.needit-faq-area-dark .faq-accrodion .accrodion.active .accrodion-inner{
+	border-color: #292E3C;
+	background: #292E3C;
+}
+
+.needit-faq-area.needit-faq-area-dark .faq-accrodion .accrodion .accrodion-content p,
+.needit-faq-area.needit-faq-area-dark .faq-accrodion .accrodion .accrodion-title h4{
+	color: #fff;
+}
+
+.needit-blog-area-dark .needit-section-title p,
+.needit-blog-area-dark .needit-section-title .needit-title{
+	color: #fff;
+}
+.needit-blog-area-dark .needit-blog-item .content > a,
+.needit-blog-area-dark .needit-blog-item .content .title a,
+.needit-blog-area-dark .needit-blog-item .content .blog-meta ul li a,
+.needit-blog-area-dark .needit-blog-item .content .blog-meta ul li{
+	color: #fff;
+}
+
+.needit-blog-area-dark .needit-blog-item .content > a:hover,
+.needit-blog-area-dark .needit-blog-item .content .title a:hover{
+	color: #2b70fa;
+}
+
+
+.needit-footer-area-dark.needit-footer-area{
+	background: #1f2128;
+}
+
+.needit-footer-area-dark .footer-about-widget a,
+.needit-footer-area-dark .footer-about-widget p{
+	color: #fff;
+}
+.needit-footer-area-dark .footer-about-widget a:hover{
+	color: #2b70fa;
+}
+
+.needit-footer-area-dark .footer-widget-info ul li a,
+.needit-footer-area-dark .footer-widget-info .title,
+.needit-footer-area-dark .footer-navigation ul li a,
+.needit-footer-area-dark .footer-navigation .title{
+	color: #fff;
+}
+.needit-footer-area-dark .footer-navigation ul li a:hover{
+	color: #2b70fa;
+}
+
+.needit-footer-area-dark .footer-copyright .copyright-text p{
+	color: #fff;
+}
+
+.needit-footer-area-dark  .footer-copyright .apps-download-btn ul li a:hover{
+	color: #fff;
+}
+.needit-footer-area-dark  .footer-copyright .apps-download-btn ul li a.item-2{
+	color: #fff;
+}

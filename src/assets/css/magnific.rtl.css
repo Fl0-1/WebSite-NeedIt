@@ -1,0 +1,84 @@
+/*==== rtl css ====*/
+
+
+
+.needit-traffic-area.needit-traffic-area-rtl .traffic-thumb {
+	left: 0;
+	right: auto;
+	transform: translateY(-50%) rotateY(-180deg);
+}
+
+
+.needit-traffic-area-rtl .needit-traffic-title{
+	padding-left: 220px;
+	padding-right: 0;
+}
+
+
+.needit-traffic-area-rtl .needit-traffic-service .icon{
+	right: 0;
+	left: auto;
+}
+
+
+
+.needit-faq-area-rtl .faq-accrodion .accrodion .accrodion-title::after,
+.needit-faq-area-rtl .faq-accrodion .accrodion .accrodion-title::before{
+	right: auto;
+	left: 30px;
+}
+
+
+.needit-project-area.needit-project-area-rtl .needit-project-box .needit-project-thumb{
+	left: 70px;
+	right: auto;
+}
+
+
+
+.needit-project-area-rtl .needit-project-content .input-box input{
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+
+.needit-project-area-rtl .needit-project-content .input-box button{
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+
+
+
+.needit-header-area-rtl .needit-header-main-menu ul{
+	text-align: right;
+}
+
+
+
+
+
+.needit-header-area-rtl .needit-header-main-menu ul > li .sub-menu{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
