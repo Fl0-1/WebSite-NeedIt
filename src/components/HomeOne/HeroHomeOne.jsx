@@ -12,12 +12,12 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="needit-hero-content">
-                                <span>Welcome To NeedIt</span>
+                                <span>Welcome to NeedIt</span>
                                 <h1 className="needit-title">
                                     NeedIt? Ask it.
                                 </h1>
                                 <p>
-                                    Missing something important? Stores closed? No problem.
+                                    Missing something ? Stores closed? Don't panic.
                                     Connect with neighbors instantly and get what you need, when you need it.
                                 </p>
                                 <ul>

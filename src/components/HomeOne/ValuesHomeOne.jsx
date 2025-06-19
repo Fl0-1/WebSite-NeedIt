@@ -8,8 +8,8 @@ function ValuesHomeOne({ className }) {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="needit-section-title text-center">
-                                <h3 className="needit-title">Why Choose NeedIt?</h3>
-                                <p>Join a community that cares. Get help when you need it, help others when you can.</p>
+                                <h3 className="needit-title">Why Join NeedIt?</h3>
+                                <p>A community built on kindness. Help when you can. Ask when you need.</p>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function ValuesHomeOne({ className }) {
                                     <span className="value-emoji">⚡</span>
                                 </div>
                                 <h4 className="needit-title">Instant Help</h4>
-                                <p>Get assistance within minutes, not hours. Fast and reliable.</p>
+                                <p>Post a request and get a reply in minutes. No waiting, no stress.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -49,8 +49,8 @@ function ValuesHomeOne({ className }) {
                                 <div className="icon">
                                     <span className="value-emoji">🏠</span>
                                 </div>
-                                <h4 className="needit-title">Community Spirit</h4>
-                                <p>Build stronger neighborhoods through mutual support and kindness.</p>
+                                <h4 className="needit-title">Stronger Together</h4>
+                                <p>NeedIt brings back trust, kindness, and the joy of helping right where you live.</p>
                             </div>
                         </div>
                     </div>
